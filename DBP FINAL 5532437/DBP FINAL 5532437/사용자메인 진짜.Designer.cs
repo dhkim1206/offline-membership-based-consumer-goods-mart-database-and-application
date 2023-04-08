@@ -1,0 +1,683 @@
+﻿
+namespace DBP_FINAL_5532437
+{
+    partial class 사용자메인_진짜
+    {
+        /// <summary>
+        /// Required designer variable.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary>
+        /// Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Windows Form Designer generated code
+
+        /// <summary>
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            this.components = new System.ComponentModel.Container();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle7 = new System.Windows.Forms.DataGridViewCellStyle();
+            this.pRODUCTSBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.dataSet1 = new DBP_FINAL_5532437.DataSet1();
+            this.bASKETBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.oRDERDPRODBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.bASKETTableAdapter = new DBP_FINAL_5532437.DataSet1TableAdapters.BASKETTableAdapter();
+            this.oRDERD_PRODTableAdapter = new DBP_FINAL_5532437.DataSet1TableAdapters.ORDERD_PRODTableAdapter();
+            this.pRODUCTSTableAdapter = new DBP_FINAL_5532437.DataSet1TableAdapters.PRODUCTSTableAdapter();
+            this.usersTableAdapter1 = new DBP_FINAL_5532437.DataSet1TableAdapters.USERSTableAdapter();
+            this.button7 = new System.Windows.Forms.Button();
+            this.button_review_search = new System.Windows.Forms.Button();
+            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.label5 = new System.Windows.Forms.Label();
+            this.button6 = new System.Windows.Forms.Button();
+            this.button5 = new System.Windows.Forms.Button();
+            this.button3 = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
+            this.button2 = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
+            this.dataGridView3 = new System.Windows.Forms.DataGridView();
+            this.oRDERIDDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.pRODNAMEDataGridViewTextBoxColumn2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.pRODPRICEDataGridViewTextBoxColumn2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.pRODIDDataGridViewTextBoxColumn2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.oRDERDATEDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.ORDER_OK = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.comboBox2 = new System.Windows.Forms.ComboBox();
+            this.button4 = new System.Windows.Forms.Button();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.button_basket = new System.Windows.Forms.Button();
+            this.label2 = new System.Windows.Forms.Label();
+            this.button_order = new System.Windows.Forms.Button();
+            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.pRODKINDDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.pRODNAMEDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.PROD_COUNT = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.pRODPRICEDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.sTORNAMEDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.pRODIDDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridView2 = new System.Windows.Forms.DataGridView();
+            this.pRODKINDDataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.pRODNAMEDataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.pRODPRICEDataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.TOTAL_PRICE = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.sTORNAMEDataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.pRODIDDataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            ((System.ComponentModel.ISupportInitialize)(this.pRODUCTSBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataSet1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.bASKETBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.oRDERDPRODBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).BeginInit();
+            this.SuspendLayout();
+            // 
+            // pRODUCTSBindingSource
+            // 
+            this.pRODUCTSBindingSource.DataMember = "PRODUCTS";
+            this.pRODUCTSBindingSource.DataSource = this.dataSet1;
+            // 
+            // dataSet1
+            // 
+            this.dataSet1.DataSetName = "DataSet1";
+            this.dataSet1.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            // 
+            // bASKETBindingSource
+            // 
+            this.bASKETBindingSource.DataMember = "BASKET";
+            this.bASKETBindingSource.DataSource = this.dataSet1;
+            // 
+            // oRDERDPRODBindingSource
+            // 
+            this.oRDERDPRODBindingSource.DataMember = "ORDERD_PROD";
+            this.oRDERDPRODBindingSource.DataSource = this.dataSet1;
+            // 
+            // bASKETTableAdapter
+            // 
+            this.bASKETTableAdapter.ClearBeforeFill = true;
+            // 
+            // oRDERD_PRODTableAdapter
+            // 
+            this.oRDERD_PRODTableAdapter.ClearBeforeFill = true;
+            // 
+            // pRODUCTSTableAdapter
+            // 
+            this.pRODUCTSTableAdapter.ClearBeforeFill = true;
+            // 
+            // usersTableAdapter1
+            // 
+            this.usersTableAdapter1.ClearBeforeFill = true;
+            // 
+            // button7
+            // 
+            this.button7.Font = new System.Drawing.Font("함초롬바탕 확장", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.button7.Location = new System.Drawing.Point(244, 13);
+            this.button7.Name = "button7";
+            this.button7.Size = new System.Drawing.Size(78, 27);
+            this.button7.TabIndex = 137;
+            this.button7.Text = "공지사항";
+            this.button7.UseVisualStyleBackColor = true;
+            // 
+            // button_review_search
+            // 
+            this.button_review_search.Font = new System.Drawing.Font("함초롬바탕 확장", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.button_review_search.Location = new System.Drawing.Point(472, 54);
+            this.button_review_search.Name = "button_review_search";
+            this.button_review_search.Size = new System.Drawing.Size(59, 24);
+            this.button_review_search.TabIndex = 136;
+            this.button_review_search.Text = "필터";
+            this.button_review_search.UseVisualStyleBackColor = true;
+            // 
+            // textBox5
+            // 
+            this.textBox5.Font = new System.Drawing.Font("함초롬바탕 확장", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.textBox5.Location = new System.Drawing.Point(360, 55);
+            this.textBox5.Multiline = true;
+            this.textBox5.Name = "textBox5";
+            this.textBox5.Size = new System.Drawing.Size(102, 21);
+            this.textBox5.TabIndex = 135;
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("함초롬바탕 확장", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.label5.Location = new System.Drawing.Point(304, 55);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(51, 19);
+            this.label5.TabIndex = 134;
+            this.label5.Text = "상품명";
+            // 
+            // button6
+            // 
+            this.button6.Font = new System.Drawing.Font("함초롬바탕 확장", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.button6.Location = new System.Drawing.Point(9, 12);
+            this.button6.Name = "button6";
+            this.button6.Size = new System.Drawing.Size(80, 32);
+            this.button6.TabIndex = 133;
+            this.button6.Text = "로그아웃";
+            this.button6.UseVisualStyleBackColor = true;
+            // 
+            // button5
+            // 
+            this.button5.Font = new System.Drawing.Font("함초롬바탕 확장", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.button5.Location = new System.Drawing.Point(95, 12);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(46, 28);
+            this.button5.TabIndex = 132;
+            this.button5.Text = "리뷰";
+            this.button5.UseVisualStyleBackColor = true;
+            // 
+            // button3
+            // 
+            this.button3.Font = new System.Drawing.Font("함초롬바탕 확장", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.button3.Location = new System.Drawing.Point(147, 13);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(92, 27);
+            this.button3.TabIndex = 131;
+            this.button3.Text = "마이 페이지";
+            this.button3.UseVisualStyleBackColor = true;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("함초롬바탕 확장", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.label1.Location = new System.Drawing.Point(1382, 59);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(37, 19);
+            this.label1.TabIndex = 130;
+            this.label1.Text = "개수";
+            // 
+            // button2
+            // 
+            this.button2.Font = new System.Drawing.Font("함초롬바탕 확장", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.button2.Location = new System.Drawing.Point(1442, 319);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(90, 27);
+            this.button2.TabIndex = 129;
+            this.button2.Text = "환불요청";
+            this.button2.UseVisualStyleBackColor = true;
+            // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
+            this.button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.button1.Font = new System.Drawing.Font("함초롬바탕 확장", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.button1.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.button1.Location = new System.Drawing.Point(1442, 58);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(22, 21);
+            this.button1.TabIndex = 128;
+            this.button1.Text = "-";
+            this.button1.UseVisualStyleBackColor = false;
+            // 
+            // dataGridView3
+            // 
+            this.dataGridView3.AllowUserToAddRows = false;
+            this.dataGridView3.AllowUserToDeleteRows = false;
+            this.dataGridView3.AutoGenerateColumns = false;
+            this.dataGridView3.BackgroundColor = System.Drawing.Color.Honeydew;
+            this.dataGridView3.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.dataGridView3.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.Raised;
+            this.dataGridView3.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Single;
+            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.Info;
+            dataGridViewCellStyle1.Font = new System.Drawing.Font("함초롬바탕 확장", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            dataGridViewCellStyle1.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridView3.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
+            this.dataGridView3.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView3.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.oRDERIDDataGridViewTextBoxColumn,
+            this.pRODNAMEDataGridViewTextBoxColumn2,
+            this.pRODPRICEDataGridViewTextBoxColumn2,
+            this.dataGridViewTextBoxColumn3,
+            this.dataGridViewTextBoxColumn2,
+            this.pRODIDDataGridViewTextBoxColumn2,
+            this.oRDERDATEDataGridViewTextBoxColumn,
+            this.ORDER_OK});
+            this.dataGridView3.DataSource = this.oRDERDPRODBindingSource;
+            this.dataGridView3.Location = new System.Drawing.Point(720, 352);
+            this.dataGridView3.Name = "dataGridView3";
+            this.dataGridView3.ReadOnly = true;
+            this.dataGridView3.RowHeadersWidthSizeMode = System.Windows.Forms.DataGridViewRowHeadersWidthSizeMode.AutoSizeToAllHeaders;
+            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            this.dataGridView3.RowsDefaultCellStyle = dataGridViewCellStyle2;
+            this.dataGridView3.RowTemplate.Height = 23;
+            this.dataGridView3.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
+            this.dataGridView3.Size = new System.Drawing.Size(826, 188);
+            this.dataGridView3.TabIndex = 127;
+            // 
+            // oRDERIDDataGridViewTextBoxColumn
+            // 
+            this.oRDERIDDataGridViewTextBoxColumn.DataPropertyName = "ORDER_ID";
+            this.oRDERIDDataGridViewTextBoxColumn.HeaderText = "주문번호";
+            this.oRDERIDDataGridViewTextBoxColumn.Name = "oRDERIDDataGridViewTextBoxColumn";
+            this.oRDERIDDataGridViewTextBoxColumn.ReadOnly = true;
+            // 
+            // pRODNAMEDataGridViewTextBoxColumn2
+            // 
+            this.pRODNAMEDataGridViewTextBoxColumn2.DataPropertyName = "PROD_NAME";
+            this.pRODNAMEDataGridViewTextBoxColumn2.HeaderText = "이름";
+            this.pRODNAMEDataGridViewTextBoxColumn2.Name = "pRODNAMEDataGridViewTextBoxColumn2";
+            this.pRODNAMEDataGridViewTextBoxColumn2.ReadOnly = true;
+            // 
+            // pRODPRICEDataGridViewTextBoxColumn2
+            // 
+            this.pRODPRICEDataGridViewTextBoxColumn2.DataPropertyName = "PROD_PRICE";
+            this.pRODPRICEDataGridViewTextBoxColumn2.HeaderText = "가격";
+            this.pRODPRICEDataGridViewTextBoxColumn2.Name = "pRODPRICEDataGridViewTextBoxColumn2";
+            this.pRODPRICEDataGridViewTextBoxColumn2.ReadOnly = true;
+            // 
+            // dataGridViewTextBoxColumn3
+            // 
+            this.dataGridViewTextBoxColumn3.DataPropertyName = "PROD_COUNT";
+            this.dataGridViewTextBoxColumn3.HeaderText = "개수";
+            this.dataGridViewTextBoxColumn3.Name = "dataGridViewTextBoxColumn3";
+            this.dataGridViewTextBoxColumn3.ReadOnly = true;
+            // 
+            // dataGridViewTextBoxColumn2
+            // 
+            this.dataGridViewTextBoxColumn2.DataPropertyName = "TOTAL_PRICE";
+            this.dataGridViewTextBoxColumn2.HeaderText = "총 가격";
+            this.dataGridViewTextBoxColumn2.Name = "dataGridViewTextBoxColumn2";
+            this.dataGridViewTextBoxColumn2.ReadOnly = true;
+            // 
+            // pRODIDDataGridViewTextBoxColumn2
+            // 
+            this.pRODIDDataGridViewTextBoxColumn2.DataPropertyName = "PROD_ID";
+            this.pRODIDDataGridViewTextBoxColumn2.HeaderText = "상품ID";
+            this.pRODIDDataGridViewTextBoxColumn2.Name = "pRODIDDataGridViewTextBoxColumn2";
+            this.pRODIDDataGridViewTextBoxColumn2.ReadOnly = true;
+            // 
+            // oRDERDATEDataGridViewTextBoxColumn
+            // 
+            this.oRDERDATEDataGridViewTextBoxColumn.DataPropertyName = "ORDER_DATE";
+            this.oRDERDATEDataGridViewTextBoxColumn.HeaderText = "주문날짜";
+            this.oRDERDATEDataGridViewTextBoxColumn.Name = "oRDERDATEDataGridViewTextBoxColumn";
+            this.oRDERDATEDataGridViewTextBoxColumn.ReadOnly = true;
+            // 
+            // ORDER_OK
+            // 
+            this.ORDER_OK.DataPropertyName = "ORDER_OK";
+            this.ORDER_OK.HeaderText = "주문상태";
+            this.ORDER_OK.Name = "ORDER_OK";
+            this.ORDER_OK.ReadOnly = true;
+            // 
+            // comboBox2
+            // 
+            this.comboBox2.Font = new System.Drawing.Font("함초롬바탕 확장", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.comboBox2.FormattingEnabled = true;
+            this.comboBox2.Items.AddRange(new object[] {
+            "E-Mart NewYork",
+            "이마트 강남점",
+            "이마트 대구점",
+            "이마트 부산점",
+            "이마트 평양점"});
+            this.comboBox2.Location = new System.Drawing.Point(429, 87);
+            this.comboBox2.Name = "comboBox2";
+            this.comboBox2.Size = new System.Drawing.Size(120, 27);
+            this.comboBox2.TabIndex = 124;
+            // 
+            // button4
+            // 
+            this.button4.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
+            this.button4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.button4.Font = new System.Drawing.Font("함초롬바탕 확장", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.button4.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.button4.Location = new System.Drawing.Point(1419, 57);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(21, 22);
+            this.button4.TabIndex = 123;
+            this.button4.Text = "+";
+            this.button4.UseVisualStyleBackColor = false;
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("함초롬바탕 확장", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.label4.Location = new System.Drawing.Point(730, 318);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(88, 24);
+            this.label4.TabIndex = 122;
+            this.label4.Text = "주문 내역";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("함초롬바탕 확장", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.label3.Location = new System.Drawing.Point(731, 53);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(82, 24);
+            this.label3.TabIndex = 121;
+            this.label3.Text = "장바구니";
+            // 
+            // button_basket
+            // 
+            this.button_basket.Font = new System.Drawing.Font("함초롬바탕 확장", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.button_basket.Location = new System.Drawing.Point(551, 53);
+            this.button_basket.Name = "button_basket";
+            this.button_basket.Size = new System.Drawing.Size(120, 25);
+            this.button_basket.TabIndex = 120;
+            this.button_basket.Text = " 장바구니 담기";
+            this.button_basket.UseVisualStyleBackColor = true;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("함초롬바탕 확장", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.label2.Location = new System.Drawing.Point(19, 52);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(106, 24);
+            this.label2.TabIndex = 119;
+            this.label2.Text = "상품 리스트";
+            // 
+            // button_order
+            // 
+            this.button_order.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.button_order.Font = new System.Drawing.Font("함초롬바탕 확장", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.button_order.ForeColor = System.Drawing.SystemColors.HighlightText;
+            this.button_order.Location = new System.Drawing.Point(720, 270);
+            this.button_order.Name = "button_order";
+            this.button_order.Size = new System.Drawing.Size(759, 32);
+            this.button_order.TabIndex = 118;
+            this.button_order.Text = "주문하기";
+            this.button_order.UseVisualStyleBackColor = false;
+            // 
+            // dataGridView1
+            // 
+            this.dataGridView1.AllowUserToAddRows = false;
+            this.dataGridView1.AllowUserToDeleteRows = false;
+            this.dataGridView1.AutoGenerateColumns = false;
+            this.dataGridView1.BackgroundColor = System.Drawing.Color.Honeydew;
+            this.dataGridView1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.dataGridView1.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.Raised;
+            this.dataGridView1.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Single;
+            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle3.BackColor = System.Drawing.SystemColors.Info;
+            dataGridViewCellStyle3.Font = new System.Drawing.Font("함초롬바탕 확장", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            dataGridViewCellStyle3.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridView1.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle3;
+            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.pRODKINDDataGridViewTextBoxColumn,
+            this.pRODNAMEDataGridViewTextBoxColumn,
+            this.PROD_COUNT,
+            this.pRODPRICEDataGridViewTextBoxColumn,
+            this.sTORNAMEDataGridViewTextBoxColumn,
+            this.pRODIDDataGridViewTextBoxColumn});
+            this.dataGridView1.DataSource = this.pRODUCTSBindingSource;
+            this.dataGridView1.GridColor = System.Drawing.SystemColors.ActiveCaption;
+            this.dataGridView1.Location = new System.Drawing.Point(9, 87);
+            this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.ReadOnly = true;
+            this.dataGridView1.RowHeadersWidthSizeMode = System.Windows.Forms.DataGridViewRowHeadersWidthSizeMode.AutoSizeToAllHeaders;
+            dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            this.dataGridView1.RowsDefaultCellStyle = dataGridViewCellStyle4;
+            this.dataGridView1.RowTemplate.Height = 23;
+            this.dataGridView1.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
+            this.dataGridView1.Size = new System.Drawing.Size(667, 453);
+            this.dataGridView1.TabIndex = 125;
+            // 
+            // pRODKINDDataGridViewTextBoxColumn
+            // 
+            this.pRODKINDDataGridViewTextBoxColumn.DataPropertyName = "PROD_KIND";
+            this.pRODKINDDataGridViewTextBoxColumn.HeaderText = "카테고리";
+            this.pRODKINDDataGridViewTextBoxColumn.Name = "pRODKINDDataGridViewTextBoxColumn";
+            this.pRODKINDDataGridViewTextBoxColumn.ReadOnly = true;
+            // 
+            // pRODNAMEDataGridViewTextBoxColumn
+            // 
+            this.pRODNAMEDataGridViewTextBoxColumn.DataPropertyName = "PROD_NAME";
+            this.pRODNAMEDataGridViewTextBoxColumn.HeaderText = "이름";
+            this.pRODNAMEDataGridViewTextBoxColumn.Name = "pRODNAMEDataGridViewTextBoxColumn";
+            this.pRODNAMEDataGridViewTextBoxColumn.ReadOnly = true;
+            // 
+            // PROD_COUNT
+            // 
+            this.PROD_COUNT.DataPropertyName = "PROD_COUNT";
+            this.PROD_COUNT.HeaderText = "개수";
+            this.PROD_COUNT.Name = "PROD_COUNT";
+            this.PROD_COUNT.ReadOnly = true;
+            // 
+            // pRODPRICEDataGridViewTextBoxColumn
+            // 
+            this.pRODPRICEDataGridViewTextBoxColumn.DataPropertyName = "PROD_PRICE";
+            this.pRODPRICEDataGridViewTextBoxColumn.HeaderText = "가격";
+            this.pRODPRICEDataGridViewTextBoxColumn.Name = "pRODPRICEDataGridViewTextBoxColumn";
+            this.pRODPRICEDataGridViewTextBoxColumn.ReadOnly = true;
+            // 
+            // sTORNAMEDataGridViewTextBoxColumn
+            // 
+            this.sTORNAMEDataGridViewTextBoxColumn.DataPropertyName = "STOR_NAME";
+            this.sTORNAMEDataGridViewTextBoxColumn.HeaderText = "매장";
+            this.sTORNAMEDataGridViewTextBoxColumn.Name = "sTORNAMEDataGridViewTextBoxColumn";
+            this.sTORNAMEDataGridViewTextBoxColumn.ReadOnly = true;
+            this.sTORNAMEDataGridViewTextBoxColumn.Width = 120;
+            // 
+            // pRODIDDataGridViewTextBoxColumn
+            // 
+            this.pRODIDDataGridViewTextBoxColumn.DataPropertyName = "PROD_ID";
+            this.pRODIDDataGridViewTextBoxColumn.HeaderText = "상품ID";
+            this.pRODIDDataGridViewTextBoxColumn.Name = "pRODIDDataGridViewTextBoxColumn";
+            this.pRODIDDataGridViewTextBoxColumn.ReadOnly = true;
+            // 
+            // dataGridView2
+            // 
+            this.dataGridView2.AllowUserToAddRows = false;
+            this.dataGridView2.AllowUserToDeleteRows = false;
+            this.dataGridView2.AutoGenerateColumns = false;
+            this.dataGridView2.BackgroundColor = System.Drawing.Color.Honeydew;
+            this.dataGridView2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.dataGridView2.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.Raised;
+            this.dataGridView2.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Single;
+            dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle5.BackColor = System.Drawing.SystemColors.Info;
+            dataGridViewCellStyle5.Font = new System.Drawing.Font("함초롬바탕 확장", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            dataGridViewCellStyle5.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle5.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle5.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle5.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridView2.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle5;
+            this.dataGridView2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView2.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.pRODKINDDataGridViewTextBoxColumn1,
+            this.pRODNAMEDataGridViewTextBoxColumn1,
+            this.pRODPRICEDataGridViewTextBoxColumn1,
+            this.dataGridViewTextBoxColumn1,
+            this.TOTAL_PRICE,
+            this.sTORNAMEDataGridViewTextBoxColumn1,
+            this.pRODIDDataGridViewTextBoxColumn1});
+            this.dataGridView2.DataSource = this.bASKETBindingSource;
+            this.dataGridView2.GridColor = System.Drawing.SystemColors.GradientActiveCaption;
+            this.dataGridView2.Location = new System.Drawing.Point(720, 87);
+            this.dataGridView2.Name = "dataGridView2";
+            this.dataGridView2.ReadOnly = true;
+            dataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle6.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            dataGridViewCellStyle6.Font = new System.Drawing.Font("굴림", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            dataGridViewCellStyle6.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle6.SelectionBackColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            dataGridViewCellStyle6.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle6.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridView2.RowHeadersDefaultCellStyle = dataGridViewCellStyle6;
+            this.dataGridView2.RowHeadersWidthSizeMode = System.Windows.Forms.DataGridViewRowHeadersWidthSizeMode.AutoSizeToAllHeaders;
+            dataGridViewCellStyle7.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            this.dataGridView2.RowsDefaultCellStyle = dataGridViewCellStyle7;
+            this.dataGridView2.RowTemplate.Height = 23;
+            this.dataGridView2.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
+            this.dataGridView2.Size = new System.Drawing.Size(759, 177);
+            this.dataGridView2.TabIndex = 126;
+            // 
+            // pRODKINDDataGridViewTextBoxColumn1
+            // 
+            this.pRODKINDDataGridViewTextBoxColumn1.DataPropertyName = "PROD_KIND";
+            this.pRODKINDDataGridViewTextBoxColumn1.HeaderText = "종류";
+            this.pRODKINDDataGridViewTextBoxColumn1.Name = "pRODKINDDataGridViewTextBoxColumn1";
+            this.pRODKINDDataGridViewTextBoxColumn1.ReadOnly = true;
+            // 
+            // pRODNAMEDataGridViewTextBoxColumn1
+            // 
+            this.pRODNAMEDataGridViewTextBoxColumn1.DataPropertyName = "PROD_NAME";
+            this.pRODNAMEDataGridViewTextBoxColumn1.HeaderText = "이름";
+            this.pRODNAMEDataGridViewTextBoxColumn1.Name = "pRODNAMEDataGridViewTextBoxColumn1";
+            this.pRODNAMEDataGridViewTextBoxColumn1.ReadOnly = true;
+            // 
+            // pRODPRICEDataGridViewTextBoxColumn1
+            // 
+            this.pRODPRICEDataGridViewTextBoxColumn1.DataPropertyName = "PROD_PRICE";
+            this.pRODPRICEDataGridViewTextBoxColumn1.HeaderText = "가격";
+            this.pRODPRICEDataGridViewTextBoxColumn1.Name = "pRODPRICEDataGridViewTextBoxColumn1";
+            this.pRODPRICEDataGridViewTextBoxColumn1.ReadOnly = true;
+            // 
+            // dataGridViewTextBoxColumn1
+            // 
+            this.dataGridViewTextBoxColumn1.DataPropertyName = "PROD_COUNT";
+            this.dataGridViewTextBoxColumn1.HeaderText = "개수";
+            this.dataGridViewTextBoxColumn1.Name = "dataGridViewTextBoxColumn1";
+            this.dataGridViewTextBoxColumn1.ReadOnly = true;
+            // 
+            // TOTAL_PRICE
+            // 
+            this.TOTAL_PRICE.DataPropertyName = "TOTAL_PRICE";
+            this.TOTAL_PRICE.HeaderText = "총 가격";
+            this.TOTAL_PRICE.Name = "TOTAL_PRICE";
+            this.TOTAL_PRICE.ReadOnly = true;
+            // 
+            // sTORNAMEDataGridViewTextBoxColumn1
+            // 
+            this.sTORNAMEDataGridViewTextBoxColumn1.DataPropertyName = "STOR_NAME";
+            this.sTORNAMEDataGridViewTextBoxColumn1.HeaderText = "가게";
+            this.sTORNAMEDataGridViewTextBoxColumn1.Name = "sTORNAMEDataGridViewTextBoxColumn1";
+            this.sTORNAMEDataGridViewTextBoxColumn1.ReadOnly = true;
+            // 
+            // pRODIDDataGridViewTextBoxColumn1
+            // 
+            this.pRODIDDataGridViewTextBoxColumn1.DataPropertyName = "PROD_ID";
+            this.pRODIDDataGridViewTextBoxColumn1.HeaderText = "상품ID";
+            this.pRODIDDataGridViewTextBoxColumn1.Name = "pRODIDDataGridViewTextBoxColumn1";
+            this.pRODIDDataGridViewTextBoxColumn1.ReadOnly = true;
+            // 
+            // 사용자메인_진짜
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.HighlightText;
+            this.ClientSize = new System.Drawing.Size(1564, 564);
+            this.Controls.Add(this.button7);
+            this.Controls.Add(this.button_review_search);
+            this.Controls.Add(this.textBox5);
+            this.Controls.Add(this.label5);
+            this.Controls.Add(this.button6);
+            this.Controls.Add(this.button5);
+            this.Controls.Add(this.button3);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.button2);
+            this.Controls.Add(this.button1);
+            this.Controls.Add(this.dataGridView3);
+            this.Controls.Add(this.comboBox2);
+            this.Controls.Add(this.button4);
+            this.Controls.Add(this.label4);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.button_basket);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.button_order);
+            this.Controls.Add(this.dataGridView1);
+            this.Controls.Add(this.dataGridView2);
+            this.Name = "사용자메인_진짜";
+            this.Text = "사용자메인_진짜";
+            this.Load += new System.EventHandler(this.사용자메인_진짜_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.pRODUCTSBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataSet1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.bASKETBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.oRDERDPRODBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).EndInit();
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
+        }
+
+        #endregion
+
+        private System.Windows.Forms.BindingSource pRODUCTSBindingSource;
+        private DataSet1 dataSet1;
+        private System.Windows.Forms.BindingSource bASKETBindingSource;
+        private System.Windows.Forms.BindingSource oRDERDPRODBindingSource;
+        private DataSet1TableAdapters.BASKETTableAdapter bASKETTableAdapter;
+        private DataSet1TableAdapters.ORDERD_PRODTableAdapter oRDERD_PRODTableAdapter;
+        private DataSet1TableAdapters.PRODUCTSTableAdapter pRODUCTSTableAdapter;
+        private DataSet1TableAdapters.USERSTableAdapter usersTableAdapter1;
+        private System.Windows.Forms.Button button7;
+        private System.Windows.Forms.Button button_review_search;
+        private System.Windows.Forms.TextBox textBox5;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Button button6;
+        private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.DataGridView dataGridView3;
+        private System.Windows.Forms.DataGridViewTextBoxColumn oRDERIDDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn pRODNAMEDataGridViewTextBoxColumn2;
+        private System.Windows.Forms.DataGridViewTextBoxColumn pRODPRICEDataGridViewTextBoxColumn2;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn3;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn2;
+        private System.Windows.Forms.DataGridViewTextBoxColumn pRODIDDataGridViewTextBoxColumn2;
+        private System.Windows.Forms.DataGridViewTextBoxColumn oRDERDATEDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn ORDER_OK;
+        private System.Windows.Forms.ComboBox comboBox2;
+        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Button button_basket;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Button button_order;
+        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.DataGridViewTextBoxColumn pRODKINDDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn pRODNAMEDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn PROD_COUNT;
+        private System.Windows.Forms.DataGridViewTextBoxColumn pRODPRICEDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn sTORNAMEDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn pRODIDDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridView dataGridView2;
+        private System.Windows.Forms.DataGridViewTextBoxColumn pRODKINDDataGridViewTextBoxColumn1;
+        private System.Windows.Forms.DataGridViewTextBoxColumn pRODNAMEDataGridViewTextBoxColumn1;
+        private System.Windows.Forms.DataGridViewTextBoxColumn pRODPRICEDataGridViewTextBoxColumn1;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn1;
+        private System.Windows.Forms.DataGridViewTextBoxColumn TOTAL_PRICE;
+        private System.Windows.Forms.DataGridViewTextBoxColumn sTORNAMEDataGridViewTextBoxColumn1;
+        private System.Windows.Forms.DataGridViewTextBoxColumn pRODIDDataGridViewTextBoxColumn1;
+    }
+}

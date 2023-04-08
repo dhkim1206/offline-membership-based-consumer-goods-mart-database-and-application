@@ -1,0 +1,43 @@
+C:\Users\kdh12\source\repos\DBP FINAL 5532437\DBP FINAL 5532437\bin\Debug\DBP FINAL 5532437.exe.config
+C:\Users\kdh12\source\repos\DBP FINAL 5532437\DBP FINAL 5532437\bin\Debug\DBP FINAL 5532437.exe
+C:\Users\kdh12\source\repos\DBP FINAL 5532437\DBP FINAL 5532437\bin\Debug\DBP FINAL 5532437.pdb
+C:\Users\kdh12\source\repos\DBP FINAL 5532437\DBP FINAL 5532437\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\kdh12\source\repos\DBP FINAL 5532437\DBP FINAL 5532437\bin\Debug\Oracle.ManagedDataAccess.dll
+C:\Users\kdh12\source\repos\DBP FINAL 5532437\DBP FINAL 5532437\bin\Debug\System.Buffers.dll
+C:\Users\kdh12\source\repos\DBP FINAL 5532437\DBP FINAL 5532437\bin\Debug\System.Memory.dll
+C:\Users\kdh12\source\repos\DBP FINAL 5532437\DBP FINAL 5532437\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\kdh12\source\repos\DBP FINAL 5532437\DBP FINAL 5532437\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\kdh12\source\repos\DBP FINAL 5532437\DBP FINAL 5532437\bin\Debug\System.Text.Encodings.Web.dll
+C:\Users\kdh12\source\repos\DBP FINAL 5532437\DBP FINAL 5532437\bin\Debug\System.Text.Json.dll
+C:\Users\kdh12\source\repos\DBP FINAL 5532437\DBP FINAL 5532437\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\kdh12\source\repos\DBP FINAL 5532437\DBP FINAL 5532437\bin\Debug\System.ValueTuple.dll
+C:\Users\kdh12\source\repos\DBP FINAL 5532437\DBP FINAL 5532437\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\kdh12\source\repos\DBP FINAL 5532437\DBP FINAL 5532437\bin\Debug\System.Buffers.xml
+C:\Users\kdh12\source\repos\DBP FINAL 5532437\DBP FINAL 5532437\bin\Debug\System.Memory.xml
+C:\Users\kdh12\source\repos\DBP FINAL 5532437\DBP FINAL 5532437\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\kdh12\source\repos\DBP FINAL 5532437\DBP FINAL 5532437\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\kdh12\source\repos\DBP FINAL 5532437\DBP FINAL 5532437\bin\Debug\System.Text.Encodings.Web.xml
+C:\Users\kdh12\source\repos\DBP FINAL 5532437\DBP FINAL 5532437\bin\Debug\System.Text.Json.xml
+C:\Users\kdh12\source\repos\DBP FINAL 5532437\DBP FINAL 5532437\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\kdh12\source\repos\DBP FINAL 5532437\DBP FINAL 5532437\bin\Debug\System.ValueTuple.xml
+C:\Users\kdh12\source\repos\DBP FINAL 5532437\DBP FINAL 5532437\obj\Debug\DBP FINAL 5532437.csproj.AssemblyReference.cache
+C:\Users\kdh12\source\repos\DBP FINAL 5532437\DBP FINAL 5532437\obj\Debug\DBP_FINAL_5532437.Properties.Resources.resources
+C:\Users\kdh12\source\repos\DBP FINAL 5532437\DBP FINAL 5532437\obj\Debug\DBP FINAL 5532437.csproj.GenerateResource.cache
+C:\Users\kdh12\source\repos\DBP FINAL 5532437\DBP FINAL 5532437\obj\Debug\DBP FINAL 5532437.csproj.CoreCompileInputs.cache
+C:\Users\kdh12\source\repos\DBP FINAL 5532437\DBP FINAL 5532437\obj\Debug\DBP FINAL 5532437.csproj.CopyComplete
+C:\Users\kdh12\source\repos\DBP FINAL 5532437\DBP FINAL 5532437\obj\Debug\DBP FINAL 5532437.exe
+C:\Users\kdh12\source\repos\DBP FINAL 5532437\DBP FINAL 5532437\obj\Debug\DBP FINAL 5532437.pdb
+C:\Users\kdh12\source\repos\DBP FINAL 5532437\DBP FINAL 5532437\obj\Debug\DBP_FINAL_5532437.MyPageForm.resources
+C:\Users\kdh12\source\repos\DBP FINAL 5532437\DBP FINAL 5532437\obj\Debug\DBP_FINAL_5532437.로그인화면.resources
+C:\Users\kdh12\source\repos\DBP FINAL 5532437\DBP FINAL 5532437\obj\Debug\DBP_FINAL_5532437.회원가입.resources
+C:\Users\kdh12\source\repos\DBP FINAL 5532437\DBP FINAL 5532437\obj\Debug\DBP_FINAL_5532437.판매자메인.resources
+C:\Users\kdh12\source\repos\DBP FINAL 5532437\DBP FINAL 5532437\obj\Debug\DBP_FINAL_5532437.리뷰.resources
+C:\Users\kdh12\source\repos\DBP FINAL 5532437\DBP FINAL 5532437\obj\Debug\DBP_FINAL_5532437.사용자메인.resources
+C:\Users\kdh12\source\repos\DBP FINAL 5532437\DBP FINAL 5532437\obj\Debug\DBP_FINAL_5532437.관리자_공지사항.resources
+C:\Users\kdh12\source\repos\DBP FINAL 5532437\DBP FINAL 5532437\obj\Debug\DBP_FINAL_5532437.사용자_공지사항.resources
+C:\Users\kdh12\source\repos\DBP FINAL 5532437\DBP FINAL 5532437\obj\Debug\DBP_FINAL_5532437.관리자_진짜_메인.resources
+C:\Users\kdh12\source\repos\DBP FINAL 5532437\DBP FINAL 5532437\obj\Debug\DBP_FINAL_5532437.상품관리.resources
+C:\Users\kdh12\source\repos\DBP FINAL 5532437\DBP FINAL 5532437\obj\Debug\DBP_FINAL_5532437.상품현황통계.resources
+C:\Users\kdh12\source\repos\DBP FINAL 5532437\DBP FINAL 5532437\obj\Debug\DBP_FINAL_5532437.상품판매현황.resources
+C:\Users\kdh12\source\repos\DBP FINAL 5532437\DBP FINAL 5532437\obj\Debug\DBP_FINAL_5532437.고객관리.resources
+C:\Users\kdh12\source\repos\DBP FINAL 5532437\DBP FINAL 5532437\obj\Debug\DBP_FINAL_5532437.사용자메인_진짜.resources
